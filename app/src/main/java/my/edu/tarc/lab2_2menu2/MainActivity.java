@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }else if(id == R.id.action_zoom_in){
-            //TODO: increase the font size by 1 unit
+            size++;
 
         }else if(id == R.id.action_zoom_out){
             //TODO: decrease the font size by 1 unit
